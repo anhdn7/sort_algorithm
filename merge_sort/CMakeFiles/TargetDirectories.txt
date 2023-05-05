@@ -1,3 +1,3 @@
-/home/anh/cpp/CMakeFiles/rebuild_cache.dir
-/home/anh/cpp/CMakeFiles/edit_cache.dir
-/home/anh/cpp/CMakeFiles/quick_sort.dir
+/home/anh/remote/sort_algorithm/merge_sort/CMakeFiles/rebuild_cache.dir
+/home/anh/remote/sort_algorithm/merge_sort/CMakeFiles/edit_cache.dir
+/home/anh/remote/sort_algorithm/merge_sort/CMakeFiles/merge_sort.dir

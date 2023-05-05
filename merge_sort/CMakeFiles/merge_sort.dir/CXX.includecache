@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/anh/cpp/quick_sort2.cpp
-iostream
+/home/anh/remote/sort_algorithm/merge_sort/merge_sort1.cpp
+stdio.h
 -
 

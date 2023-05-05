@@ -1,4 +1,4 @@
-# Install script for directory: /home/anh/cpp
+# Install script for directory: /home/anh/remote/sort_algorithm/merge_sort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/anh/cpp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/anh/remote/sort_algorithm/merge_sort/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/quick_sort.dir/quick_sort2.cpp.o  -o quick_sort 

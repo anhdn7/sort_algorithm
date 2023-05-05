@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anh/cpp/quick_sort2.cpp" "/home/anh/cpp/CMakeFiles/quick_sort.dir/quick_sort2.cpp.o"
+  "/home/anh/remote/sort_algorithm/merge_sort/merge_sort1.cpp" "/home/anh/remote/sort_algorithm/merge_sort/CMakeFiles/merge_sort.dir/merge_sort1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

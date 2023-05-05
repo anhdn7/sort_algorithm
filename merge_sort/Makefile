@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anh/cpp
+CMAKE_SOURCE_DIR = /home/anh/remote/sort_algorithm/merge_sort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anh/cpp
+CMAKE_BINARY_DIR = /home/anh/remote/sort_algorithm/merge_sort
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anh/cpp/CMakeFiles /home/anh/cpp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anh/remote/sort_algorithm/merge_sort/CMakeFiles /home/anh/remote/sort_algorithm/merge_sort/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anh/cpp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anh/remote/sort_algorithm/merge_sort/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named quick_sort
+# Target rules for targets named merge_sort
 
 # Build rule for target.
-quick_sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 quick_sort
-.PHONY : quick_sort
+merge_sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 merge_sort
+.PHONY : merge_sort
 
 # fast build rule for target.
-quick_sort/fast:
-	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/build
-.PHONY : quick_sort/fast
+merge_sort/fast:
+	$(MAKE) -f CMakeFiles/merge_sort.dir/build.make CMakeFiles/merge_sort.dir/build
+.PHONY : merge_sort/fast
 
-quick_sort2.o: quick_sort2.cpp.o
+merge_sort1.o: merge_sort1.cpp.o
 
-.PHONY : quick_sort2.o
+.PHONY : merge_sort1.o
 
 # target to build an object file
-quick_sort2.cpp.o:
-	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort2.cpp.o
-.PHONY : quick_sort2.cpp.o
+merge_sort1.cpp.o:
+	$(MAKE) -f CMakeFiles/merge_sort.dir/build.make CMakeFiles/merge_sort.dir/merge_sort1.cpp.o
+.PHONY : merge_sort1.cpp.o
 
-quick_sort2.i: quick_sort2.cpp.i
+merge_sort1.i: merge_sort1.cpp.i
 
-.PHONY : quick_sort2.i
+.PHONY : merge_sort1.i
 
 # target to preprocess a source file
-quick_sort2.cpp.i:
-	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort2.cpp.i
-.PHONY : quick_sort2.cpp.i
+merge_sort1.cpp.i:
+	$(MAKE) -f CMakeFiles/merge_sort.dir/build.make CMakeFiles/merge_sort.dir/merge_sort1.cpp.i
+.PHONY : merge_sort1.cpp.i
 
-quick_sort2.s: quick_sort2.cpp.s
+merge_sort1.s: merge_sort1.cpp.s
 
-.PHONY : quick_sort2.s
+.PHONY : merge_sort1.s
 
 # target to generate assembly for a file
-quick_sort2.cpp.s:
-	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort2.cpp.s
-.PHONY : quick_sort2.cpp.s
+merge_sort1.cpp.s:
+	$(MAKE) -f CMakeFiles/merge_sort.dir/build.make CMakeFiles/merge_sort.dir/merge_sort1.cpp.s
+.PHONY : merge_sort1.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... quick_sort"
-	@echo "... quick_sort2.o"
-	@echo "... quick_sort2.i"
-	@echo "... quick_sort2.s"
+	@echo "... merge_sort"
+	@echo "... merge_sort1.o"
+	@echo "... merge_sort1.i"
+	@echo "... merge_sort1.s"
 .PHONY : help
 
 

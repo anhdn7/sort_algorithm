@@ -1,3 +1,0 @@
-/home/anh/cpp/CMakeFiles/rebuild_cache.dir
-/home/anh/cpp/CMakeFiles/edit_cache.dir
-/home/anh/cpp/CMakeFiles/quick_sort.dir
